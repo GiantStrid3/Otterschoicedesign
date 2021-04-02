@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------ Break points ------ */ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (max-width: 800px) {
+    h1 {
+      display: none;
+    }
+    
+    li {
+      margin-right: 10px;
+    }
+  
+    a {
+      width: 100px;
+      padding: 5px 0;
+      font-size: 16px;
+    }
+  }
+
+/* Non-Media */ 
+
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav {
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F25F5C;
+  }
+nav h2 {
+    padding-bottom: 20px;
+}
+body{
+    background-color: #F25F5C;
+    margin: 0px
+
+} 
+
+footer {
+  padding-top: 30px;
+}
+  
+h1 {
+    text-align: center;
+    margin: 5px 0 20px 0;
+    color: #28587B;
+    font-size: 36px;
+    text-decoration: underline;
+    text-shadow: white 1px 0 10px;
+  }
+h2 {
+    color: #28587B;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: white 1px 0 10px;
+}
+
+  
+ul {
+    text-align: center;
+  }
+  
+li {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #28587B;  
+  }
+li a {
+  box-shadow:  white 1px 0 10px;
+}
+  
+a {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+  
+  .wrapper{
+    width: 100%; 
+    overflow-x:scroll;     
+    white-space: nowrap;
+    background: cornsilk;
+    margin-bottom: 0;
+    font-weight: bold;
+    height: 600px;
+    
+}
+.wrapper p {
+    margin:20px 0 20px 0;
+    
+    text-align: center;
+      
+}
+.wrapper h1 {
+    color:black;
+    text-decoration: underline;
+    position: relative;
+}
+.slide{
+    height: 400px;
+    display: inline-block;
+    width: 260px;
+    padding: 100px 30px 0px 30px;
+
+}
+
+.slide img {
+     height: 350px;
+     width: auto;
+     
+}
+
+.slide img:hover{
+    transform: scale(1.50);
+    opacity: 1;
+    transition: transform 0.8s; opacity: 0.7s;
+}
+
+#icons {
+  height: 70px;
+  text-align: center;
+  
+}
+
+.facebook {
+  height: 50px;
+  width: 50px;
+  color: #3b5998;
+}
+.instagram  {
+  height: 50px;
+  width: 50px;
+  color: #8134af;
+}
+.email  {
+  height: 50px;
+  width: 50px;
+}
